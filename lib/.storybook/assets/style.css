@@ -1,0 +1,23 @@
+img.mock {
+  text-indent: -999px; /* hides alt error, no need for empty.png */
+}
+
+.input-mock-normal {
+  display: inline-block;
+  background-image: url("./Załącznik-2-1.png");
+  top: 4649px;
+  left: 699px;
+  background-position: -699px -4650px;
+  width: 412px;
+  height: 53px;
+}
+
+.input-mock-required {
+  display: inline-block;
+  background-image: url("./Załącznik-2-1.png");
+  top: 2171px;
+  left: 687px;
+  background-position: -687px -2158px;
+  width: 416px;
+  height: 53px;
+}
