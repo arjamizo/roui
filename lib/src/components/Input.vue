@@ -11,7 +11,7 @@
       </span>
     </div>
     <div class="flex flex-row" v-if="info">
-      (i){{ ' ' }}
+      <span class="material-icons info text-[#bfbfbf]">info</span>
       {{ info }}
     </div>
   </div>

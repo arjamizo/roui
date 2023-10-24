@@ -25,7 +25,8 @@
           <label><input type="checkbox" disabled> To jest niedostępne, ponieważ poprzednie zostało wybrane</label>
           <label><input type="checkbox" checked> To pole było zaznaczone przez administrator w domyśle</label>
           <div>
-            Administrator ma możliwość określenia (lub nie)...
+            <span class="material-icons info text-[#bfbfbf]">info</span>
+            <span>Administrator ma możliwość określenia (lub nie)...</span>
           </div>
         </fieldset>
       </div>
