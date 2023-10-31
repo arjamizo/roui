@@ -1,0 +1,18 @@
+# .github/workflows/chromatic.yml
+name: "Chromatic"
+on: push
+jobs:
+  chromatic-deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: yarn
+        working-directory: ./lib
+      - name: Publish to Chromatic
+        uses: chromaui/action@v1
+        # working-directory: ./lib
+        with:
+          # storybookBaseDir: ./lib
+          workingDir: ./lib
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
